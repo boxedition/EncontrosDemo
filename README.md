@@ -1,9 +1,24 @@
 # devmeetup
 
 A simple organizer meetup project using: <br />
- - Vue <br /> 
- - Firebase <br />
- - Veutify <br />
+ - [Vue](https://vuejs.org/v2/guide/) 
+ - [Firebase](https://firebase.google.com/docs)
+ - [Vuetify](https://vuetifyjs.com/en/getting-started/quick-start)
+ 
+## Config the DB
+ - [Main.js](src/main.js) <br />
+
+ Edit with your credentials
+ ```
+ firebase.initializeApp({
+         apiKey: "<API_KEY>",
+         authDomain: "<PROJECT_ID>.firebaseapp.com",
+         databaseURL: "https://<DATABASE_NAME>.firebaseio.com",
+         projectId: "<PROJECT_ID>",
+         storageBucket: "<BUCKET>.appspot.com",
+         messagingSenderId: "<SENDER_ID>",
+     })
+ ``` 
 
 ## Build Setup
 
